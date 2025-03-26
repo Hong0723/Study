@@ -152,6 +152,24 @@ HTML속 자바코드를 동적 웹페이지를 생성하는 스크립트 언어
 
 **->** 사용자가 새로운 페이지를 요청할때와 같이 페이지를 강제로 이동하는것
 
+**@RequestMapping**
+
+value는 맵핑할 주소를 명시
+
+method는 해당 맵핑이 어떠한 요청 방식(GET,POST,PUT,DELETE, 등) 으로 대응할지에 대한 설정
+
+produces는 해딩 맵핑의 응답 결과로 어떠한 컨텐트가 반환될지에 대한 설정
+
+**@RequestBody, @ResponseBody**
+
+
+**@RestController**
+
+@Controller에 @ResponseBody가 추가 된거임
+
+
+
+
 
 
 
